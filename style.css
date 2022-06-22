@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+#main-header {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+#main-header img {
+    height: 50px;
+    padding-left: 10px;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+    padding-bottom: 4px;
+    font-weight: 900;
+}
+a:visited {
+    color: inherit;
+  }
+/* Mission */
+#mission {
+    height: 700px;
+    max-width: 1200px;
+    background: url("./images/mission-background.jpg");
+    background-repeat: no-repeat;
+    margin: 70px auto 50px auto;
+}
+#mission .blackbox {
+    width: 100%;
+    background-color: black;
+}
+#mission .blackbox h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    letter-spacing: normal;
+    font-weight: 900;
+}
+#mission .blackbox h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Featured */
