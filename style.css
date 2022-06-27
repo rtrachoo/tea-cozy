@@ -57,15 +57,44 @@ a:visited {
     background-color: black;
 }
 #mission .blackbox h2 {
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 20px;
     font-family: "Roboto";
-    letter-spacing: normal;
     font-weight: 900;
 }
 #mission .blackbox h4 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 /* Featured */
+#featured {
+    max-width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+}
+#featured header h2 {
+    margin-top: 24px;
+    margin-bottom: 18px;
+    font-family: "Roboto";
+    font-weight: 900;
+}
+#featured header h4 {
+    margin-top: 0;
+}
+#featured > .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+#featured .row {
+    margin: 20px 15px 0px 15px;
+}
+#featured h4 {
+    margin: 0 auto;
+    text-align: center;
+}
+#featured .row img {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
